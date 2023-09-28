@@ -28,3 +28,6 @@ This function also utilizes memoization but employs an iterative approach. It ca
 The program calculates Fibonacci numbers using all three methods and compares the time taken for each approach. It displays the calculated value and the time taken to compute for each method. The comparison helps to understand the performance difference between the approaches.
 
 ## Be careful with [Stack Overflow](https://www.techtarget.com/whatis/definition/stack-overflow#:~:text=A%20stack%20overflow%20is%20a,been%20allocated%20to%20that%20stack.)!
+
+# I/O Example
+![Alt text](./fibEx.jpg)
