@@ -30,4 +30,4 @@ The program calculates Fibonacci numbers using all three methods and compares th
 ## Be careful with [Stack Overflow](https://www.techtarget.com/whatis/definition/stack-overflow#:~:text=A%20stack%20overflow%20is%20a,been%20allocated%20to%20that%20stack.)!
 
 # I/O Example
-![Alt text](./fibEx.jpg)
+![Code for the solution](./fibEx.jpg)

@@ -32,7 +32,7 @@ func selectionSortDecrescente(arr []Item) []Item {
 
 func getInput() (int, int, int, error) {
 	var a, b, c int
-	fmt.Print("Digite três números separados por espaço: ")
+	fmt.Print("Type three numbers, separated by a space: ")
 	_, err := fmt.Scan(&a, &b, &c)
 	return a, b, c, err
 }
@@ -50,12 +50,12 @@ func main() {
 	for {
 		utilidade, peso, quantidade, err := getInput()
 		if err != nil {
-			fmt.Println("Erro ao ler os números:", err)
+			fmt.Println("Error while reading the numbers:", err)
 			break
 		}
 
 		if utilidade == -1 && peso == -1 && quantidade == -1 {
-			fmt.Print("Qual a capacidade da mochila? ")
+			fmt.Print("Type the capacity of the backpack: ")
 			fmt.Scan(&capacidadeMochila)
 			break
 		}
